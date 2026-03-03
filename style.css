@@ -1,0 +1,119 @@
+@charset "UTF-8";
+  @font-face {
+        font-family: 'idroid';
+        src: url(idroid.otf) format('opentype');
+    }
+
+body{
+    background-color: #6cbc8f;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1#topico{
+    text-align: center;
+    color: rgb(248, 248, 248);
+    font-weight: lighter;
+    font-size: 30px;
+}
+header > p{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+header{
+    background-image: linear-gradient(to bottom, #6cbc8f, #1A5C38); 
+    margin-bottom: 0px;  
+     height: 160px;
+}
+nav > a:hover{
+    background-color: #14472b;
+    text-decoration: underline;
+}
+div{ 
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+}
+.center{
+    justify-content: center;
+    display: flex;
+}
+.espaco{
+    text-indent: 25px;
+}
+p#topo{
+    width: 480px;
+    margin: auto;
+    color: rgb(228, 228, 228);
+}
+nav{
+    padding-top: 48px;
+}
+.fonte{
+  font-family: 'idroid', sans-serif;
+  color:#1A5C38;
+}
+#bgc{
+    background-image: linear-gradient(to right, #C7EDD7, white );
+}
+#bgc2{
+    background-image: linear-gradient(to right, #C7EDD7, white );
+}
+iframe{
+   width: 100%;
+   height: 500px;
+}
+#fundovideo{
+    background-color: #207345bf;
+    padding: 20px 35px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+li{
+    list-style: none;
+}
+li::before{
+    content: '✔';
+}
+ul{
+    width: 300px;
+}
+.box{
+    display:inline-block
+}
+footer{
+    background-color: #83E1AD;
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+}
+div#ultima{
+    background-color:#076e34 ;
+    text-align: center;
+    padding: 3px 11px 3px 11px;
+}
+.cor{
+    color: rgb(0, 164, 0);
+    font-weight: 600;
+}
+.link{
+    text-decoration: none;
+    background-color: #83E1AD;
+    color: #074020;
+    font-weight: bold;
+}
+.link::after{
+    content:'🔗'  ;
+}
+
+div#ultima a {
+    text-decoration: none;
+    color: white;
+}
