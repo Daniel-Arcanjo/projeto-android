@@ -74,6 +74,7 @@ iframe{
     padding: 20px 35px;
     margin-left: -10px;
     margin-right: -10px;
+}
 li{
     list-style: none;
 }
@@ -113,4 +114,7 @@ div#ultima{
 div#ultima a {
     text-decoration: none;
     color: white;
+}
+img {
+    width: 100%;
 }
