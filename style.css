@@ -18,7 +18,6 @@ h1#topico{
 header > p{
     text-align: center;
     color: white;
-    font-weight: lighter;
 }
 nav > a{
     text-decoration: none;
@@ -28,13 +27,16 @@ nav > a{
     margin-left: 15px;
 }
 header{
-    background-image: linear-gradient(to bottom, #6cbc8f, #1A5C38); 
+    background-image: linear-gradient(to bottom, #6cbc8f, #074020); 
     margin-bottom: 0px;  
      height: 160px;
 }
 nav > a:hover{
     background-color: #14472b;
     text-decoration: underline;
+}
+nav {
+    background-color: #074020;
 }
 div{ 
     max-width: 1000px;
@@ -50,12 +52,8 @@ div{
     text-indent: 25px;
 }
 p#topo{
-    width: 480px;
-    margin: auto;
+    text-align: center;
     color: rgb(228, 228, 228);
-}
-nav{
-    padding-top: 48px;
 }
 .fonte{
   font-family: 'idroid', sans-serif;
@@ -76,7 +74,6 @@ iframe{
     padding: 20px 35px;
     margin-left: -10px;
     margin-right: -10px;
-}
 li{
     list-style: none;
 }
